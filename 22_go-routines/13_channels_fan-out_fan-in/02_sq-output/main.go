@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	in := gen(2, 3)
+	in := gen(2, 3, 4, 7)
 
 	// FAN OUT
 	// Distribute the sq work across two goroutines that both read from in.
